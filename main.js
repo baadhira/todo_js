@@ -102,7 +102,7 @@ let editPost = (e) => {
         list = JSON.parse(data)
         createPost();  
     }else{
-        alert("Empty");
+        console.log("Invalid");
     }
     
 })();
